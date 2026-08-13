@@ -23,10 +23,10 @@ function makeCard() {
   } else {
     console.log("YO " + name + "!");
   }
- 
+ console.log("Hello" +name + " You are a Silly dilly"");
    let index = randomNumber(0, closings.length - 1);
   console.log(closings[index]);
-  console.log("Hello" +name + " You are a Silly dilly"");
+  
 }
 
 makeCard();
