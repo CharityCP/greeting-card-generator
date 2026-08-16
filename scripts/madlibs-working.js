@@ -10,7 +10,7 @@ let closings = [
   "Stay golden. Silly Dilly",
   "Signs point to awesome.",
 ];
-
+//helper function
 function randomNumber(a, b) {
   return Math.floor(Math.random() * (b - a + 1)) + a;
 }
@@ -23,10 +23,11 @@ function makeCard() {
   } else {
     console.log("YO " + name + "!");
   }
-  console.log("Hello " +name+ " You are a, Silly Dilly");
-
-   let index = randomNumber(0, closings.length - 1);
+ console.log("Hello" + name + " You are a Silly dilly");
+ 
+   let index = randomNumber(0,2);
   console.log(closings[index]);
+  
 }
 
 makeCard();
