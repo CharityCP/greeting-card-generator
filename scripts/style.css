@@ -92,5 +92,6 @@ img {
 .textBox {
 	display: flex;
 	float:right;
-	justify-content: center;
+	justify-content: flex-start;
+	align-items: flex-start;
 }

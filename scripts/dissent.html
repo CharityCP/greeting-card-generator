@@ -39,44 +39,33 @@
 	let artifact = artifactInputBox.value;
 	let adjective1 = adjective1InputBox.value;
 	
-	let finishedStory = "Long after the world had been destroyed, the last survivirs lived among the ruins of " + locationInputBox + " ." The forces of good led by " + heroInputBox + " , a brave warrior carrying the " + artifactInputBox + ". Their great enemy was " +  villianInputBox + " the ruler of the " + adjective1InputBox + " .";
-	
-	
-	
-	let adjective2 = prompt("an adjective2");
-	let vehicle = prompt ("A type of vehicle:");
-	let alien = prompt ("alien ceature:");
+	let adjective2 = adjective2InputBox.value;
+	let vehicle = vehicleInputBox.value;
+	let alien = alienInputBox.value;
 	let weapon = weaponInputBox.value;
 	
+	let verbing = verbIngInputBox.value;
+	let plural noun = pluralNounInputBox.value;
+	let explosion = explosionInputBox.value;
+	let call = battleCallInputBox.value;
 	
+	let technology = futureTechInputBox.value;
+	let verb1 = verb1InputBox.value;
+	let sound = soundEffectInputBox.value;
+	let bodyPart = bodyPartInputBox.value;
 	
-	
-	let verbing = prompt ("verb end in ing:");
-	let plural noun = prompt ("A plural noun:");
-	let explosion = prompt ("type of explosion:");
-	let call = prompt ("war call:");
-	
-	
-	
-	
-	let technology = prompt ("futuristic technology:");
-	let verb1 = prompt ("verb 2:");
-	let sound = prompt ("sound affect:");
-	let bodyPart = prompt ("Body part:");
-	
-	
-	
-	
-	let adjective1 = prompt ("Adjective 1:");
-	let adjective4 = prompt ("Adjective 4");
-	let verb2 = prompt ("Verb 2:");
-	let adjective3 = prompt ("Adjective 3":);
+	let adjective1 = adjective1InputBox.value;
+	let adjective4 = adjective4InputBox.value;
+	let verb2 = verb2InputBox.value;
+	let adjective3 = adjective3InputBox.value;
 
+    let finishedStory = "Long after the world had been destroyed, the last survivors lived among the ruins of " + locationInputBox + " ." + "The forces of good led by " + heroInputBox + " , a brave warrior carrying the " + artifactInputBox + ". Their great enemy was " +  villianInputBox + " the ruler of the " + adjective1InputBox + " ." + " Today our world ends! shouted " + villianInputBox + heroInputBox + " stepped forward, I will never let ypu destroy what remains of humanity. The battle begans." + " The hero began " + verbingInputBox + " across the battlefield, while " + pluralNounInputBox + "flew through the air. Suddenly, a massive " + explosionInputBox + " rocked the ground. " + battleCallInputBox + " ! Yelled " + heroInputBox + " using a mysterious " + futureTechInputBox + " , the hero managed to " + verb1InputBox + " directly towards the enemy fortress. " + " But, " + villianInputBox + " was waiting. The villian raised a " + weaponInputBox + " and fired, " + soundEffectInputBox + " . The blast struck " + heroInputBox + " in the " + bodyPartInputBox + " ,knocking them to the ground. " + " You're finished, laughed " + villianInputBox + ". But the hero stood back up. With an expression " + heroInputBox + " raised the " + artifactInputBox + " and it brgsn to glow with " + adjective4InputBox + " energy. " "The villian charged. The hero charged. Both sides " + verb2InputBox + " towards eachother as the entire battlefield shook" + " Then came the final " + explosionInputBox + ". When the smoke cleared, only the heroic warrior remained standing. The forces of evil had been defeated. " + " The survivors looked towards the ruined sky as the hero declared, Even after the end of the world there is still hope.  And for the first time in generations, humanity believed that the future could be " + adjective3InputBox;
+	
 	
 
     document.getElementById( "story-output").value = finishedStory;
     document.getElementById ("Dissenting Madlib", click, function () {
-	
+	 
 	<!-- let makeButton = document.getElementById("make-button");
 	     let cardLine = document.getElementById("card-line"); 
 
@@ -92,7 +81,7 @@
 			
 			<div class="inputs">
     <label>A hero name
-		<input id="HeroInputBox" name="hero" type="text1" required placeholder="Superman, Captain America...">
+		<input id="heroInputBox" name="hero" type="text1" required placeholder="Superman, Captain America...">
     </label>
 
     <label>A villian name
