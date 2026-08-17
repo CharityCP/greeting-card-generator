@@ -32,47 +32,54 @@
 <body>
 <script> 
 
-	let 
-	let location = locationInputBox.value;
-	let hero = heroInputBox.value;
-	let villian = villianInputBox.value;
-	let artifact = artifactInputBox.value;
-	let adjective1 = adjective1InputBox.value;
 	
-	let adjective2 = adjective2InputBox.value;
-	let vehicle = vehicleInputBox.value;
-	let alien = alienInputBox.value;
-	let weapon = weaponInputBox.value;
+	<!-- let location = locationInputBox.value -->
 	
-	let verbing = verbIngInputBox.value;
-	let plural noun = pluralNounInputBox.value;
-	let explosion = explosionInputBox.value;
-	let call = battleCallInputBox.value;
+	<!-- let hero = document.getElementById("heroInputBox").value -->
+	<!-- console.log(hero) -->
+    <!-- let villian = villianInputBox.value; -->
+	<!-- let artifact = artifactInputBox.value; -->
 	
-	let technology = futureTechInputBox.value;
-	let verb1 = verb1InputBox.value;
-	let sound = soundEffectInputBox.value;
-	let bodyPart = bodyPartInputBox.value;
 	
-	let adjective1 = adjective1InputBox.value;
-	let adjective4 = adjective4InputBox.value;
-	let verb2 = verb2InputBox.value;
-	let adjective3 = adjective3InputBox.value;
+	<!-- let adjective2 = adjective2InputBox.value; -->
+	<!-- let vehicle = vehicleInputBox.value; -->
+	<!-- let alien = alienInputBox.value; -->
+	<!-- let weapon = weaponInputBox.value; -->
+	
+	<!-- let verbing = verbIngInputBox.value; -->
+	<!-- let pluralnoun = pluralNounInputBox.value; -->
+	<!-- let explosion = explosionInputBox.value; -->
+	<!-- let call = battleCallInputBox.value; -->
+	
+	<!-- let technology = futureTechInputBox.value; -->
+	<!-- let verb1 = verb1InputBox.value; -->
+	<!-- let sound = soundEffectInputBox.value; -->
+	<!-- let bodyPart = bodyPartInputBox.value; -->
+	
+	<!-- let adjective1 = adjective1InputBox.value; -->
+	<!-- let adjective4 = adjective4InputBox.value; -->
+	<!-- let verb2 = verb2InputBox.value; -->
+	<!-- let adjective3 = adjective3InputBox.value;  -->
 
-    let finishedStory = "Long after the world had been destroyed, the last survivors lived among the ruins of " + locationInputBox + " ." + "The forces of good led by " + heroInputBox + " , a brave warrior carrying the " + artifactInputBox + ". Their great enemy was " +  villianInputBox + " the ruler of the " + adjective1InputBox + " ." + " Today our world ends! shouted " + villianInputBox + heroInputBox + " stepped forward, I will never let ypu destroy what remains of humanity. The battle begans." + " The hero began " + verbingInputBox + " across the battlefield, while " + pluralNounInputBox + "flew through the air. Suddenly, a massive " + explosionInputBox + " rocked the ground. " + battleCallInputBox + " ! Yelled " + heroInputBox + " using a mysterious " + futureTechInputBox + " , the hero managed to " + verb1InputBox + " directly towards the enemy fortress. " + " But, " + villianInputBox + " was waiting. The villian raised a " + weaponInputBox + " and fired, " + soundEffectInputBox + " . The blast struck " + heroInputBox + " in the " + bodyPartInputBox + " ,knocking them to the ground. " + " You're finished, laughed " + villianInputBox + ". But the hero stood back up. With an expression " + heroInputBox + " raised the " + artifactInputBox + " and it brgsn to glow with " + adjective4InputBox + " energy. " "The villian charged. The hero charged. Both sides " + verb2InputBox + " towards eachother as the entire battlefield shook" + " Then came the final " + explosionInputBox + ". When the smoke cleared, only the heroic warrior remained standing. The forces of evil had been defeated. " + " The survivors looked towards the ruined sky as the hero declared, Even after the end of the world there is still hope.  And for the first time in generations, humanity believed that the future could be " + adjective3InputBox;
+  <!--   let finishedStory = "Long after the world had been destroyed, the last survivors lived among the ruins of " + location + " ." + "The forces of good led by " + hero + " , a brave warrior carrying the " + artifact + ". Their great enemy was " +  villian + " the ruler of the " + adjective1 + " ." + " Today our world ends! shouted " + villian + hero + " stepped forward, I will never let ypu destroy what remains of humanity. The battle begans." + " The hero began " + verbing + " across the battlefield, while " + pluralNoun + "flew through the air. Suddenly, a massive " + explosion + " rocked the ground. " + battleCall + " ! Yelled " + hero + " using a mysterious " + futureTech + " , the hero managed to " + verb1 + " directly towards the enemy fortress. " + " But, " + villian + " was waiting. The villian raised a " + weapon + " and fired, " + soundEffect + " . The blast struck " + hero + " in the " + bodyPart + " ,knocking them to the ground. " + " You're finished, laughed " + villian + ". But the hero stood back up. With an expression " + hero + " raised the " + artifact + " and it brgsn to glow with " + adjective4 + " energy. " "The villian charged. The hero charged. Both sides " + verb2 + " towards eachother as the entire battlefield shook" + " Then came the final " + explosion + ". When the smoke cleared, only the heroic warrior remained standing. The forces of evil had been defeated. " + " The survivors looked towards the ruined sky as the hero declared, Even after the end of the world there is still hope.  And for the first time in generations, humanity believed that the future could be " + adjective3; -->
 	
 	
-
-    document.getElementById( "story-output").value = finishedStory;
-    document.getElementById ("Dissenting Madlib", click, function () {
+ 
+    
+    <!--document.getElementById ("submitButton", click, function () { -->
 	 
-	<!-- let makeButton = document.getElementById("make-button");
-	     let cardLine = document.getElementById("card-line"); 
+	      let makeButton = document.getElementById("submitButton");
+	      let cardLine = document.getElementById("card-line"); 
 
 			function makeCard() {
-			cardLine.textContent = "Dear Ada, you are as brave as a volcano.";
+			let hero = document.getElementById("heroInputBox").value;
+	          console.log("hero: " + hero);
+			<!-- document.getElementById( "story-output").value = finishedStory; -->
+			<!--cardLine.textContent = "Dear Ada, you are as brave as a volcano."; -->
 			}
-			makeButton.addEventListener("click", makeCard); -->
+			makeButton.addEventListener("click", makeCard); 
+			
+		
 
 </script>
 
@@ -174,7 +181,8 @@
 	
 	
 	
-			<button>Dissenting Madlib </button>
+			<button id="submitButton">Dissenting Madlib </button>
+			
 		
 </body>
 </html>
