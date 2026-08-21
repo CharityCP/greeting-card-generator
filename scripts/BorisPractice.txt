@@ -1,0 +1,108 @@
+<html>
+  <head>
+    <title>Practice Page</title>
+  </head>
+  <body>
+    <!-- 1) An h1 with the id "headline-1" and any words you like -->
+    <h1> Chronicle Selector </h1>
+    <!-- 2) A p with the id "tagline-1" and any words you like -->
+	<p= id= "headline-1">
+	
+    <footer>Made by Charity Perkins.</footer>
+  </body>
+</html>
+
+
+<script src="script.js"></script>
+
+let headline = document.getElementById("headline-1");
+
+console.log(headline);
+
+HAND IT TO A BUTTON
+
+
+let headline = document.getElementById("headline-1");
+let goButton = document.getElementById("go-button");
+
+let button = document.getElementById("go-button");
+
+button.addEventListener("click", function () {
+  headline.textContent = "You clicked it!";
+});
+
+
+JavaScript Styling
+
+let headline = document.getElementById("headline-1");
+headline.style.color = "teal";
+
+let line1 = document.getElementById("line-1");
+line1.style.color = "purple";
+
+let line2 = document.getElementById("line-2");
+line2.style.color = "green";
+
+A COUNTDOWN that stops at zero
+set an if statement
+
+let count = 10;
+let countText = document.getElementById("count-1");
+
+let ticket = setInterval(function () {
+  count = count - 1;
+  countText.textContent = count;
+  // Add an if: when count hits 0, clearInterval(ticket) and say something
+  if (count === 0) {
+    clearInterval (ticket);
+    alert("Time's Up!");
+  }
+}, 1000);
+AN IMAGE THAT MOVES
+
+html
+!DOCTYPE html>
+<html>
+  <head><title>Mover</title></head>
+  <body>
+    <img id="traveler-1" src="https://picsum.photos/id/237/80/80" alt="A travelling picture" style="position: fixed; top: 100px; left: 0px;">
+    <script src="script.js"></script>
+  </body>
+</html>
+
+JavaScript
+
+let traveler = document.getElementById("traveler-1");
+let x = 0;
+
+setInterval(function () {
+  x = x + 5;
+  traveler.style.left = x + "px";
+}, 50);
+
+
+
+
+let button = document.getElementById("synth-button");
+
+button.addEventListener("click", function () {
+  headline.textContent = "You clicked it!";
+});
+
+let button = document.getElementById("jae-hyuk");
+
+     button.addEventListener("click", function () {
+     headline.textContent = "You clicked it!";
+});
+
+let button = document.getElementById("aridyn-1");
+
+    button.addEventListener("click", function () {
+    headline.textContent = "You clicked it!";
+});
+
+let button = document.getElementById("kryos-1");
+
+    button.addEventListener("click", function () {
+    headline.textContent = "You clicked it!";
+});
